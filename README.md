@@ -9,7 +9,7 @@ Este proyecto contiene la solución a cuatro ejercicios prácticos sobre estruct
 Antes de comenzar a programar o ejecutar el proyecto, **debes completar tu nombre y correo institucional en el archivo `student.env`** que se encuentra en la raíz del proyecto. Este archivo es necesario para validar tu identidad como autor del trabajo.
 
 ### ¿Por qué es obligatorio?
-
+ 
 Este proyecto utiliza una verificación automática que valida que has ingresado tu información personal. Si no lo haces:
 
 - Al ejecutar el proyecto (`App.java`) verás este mensaje de error:
