@@ -175,7 +175,57 @@ Calcula la profundidad máxima de un árbol binario (la longitud del camino más
 |                    | Código funcional pero **no pasa todas las pruebas**                                   | 6 pts       |
 |                    | Código funcional y **pasa todas las pruebas correctamente**                           | 7 pts       |
 
+## ✅ **Ejercicios Implementados**
 
+### 🔷 Ejercicio 01: Insertar en un Árbol Binario de Búsqueda (BST)
+
+📂 **Carpeta:** `Ejercicio_01_insert`
+
+🔹 **Descripción:** Inserta valores en un árbol binario de búsqueda, donde:
+- Subárbol izquierdo contiene nodos menores.
+- Subárbol derecho contiene nodos mayores.
+
+🔹 **Método implementado:**
+- `insert(Node root, int value)`  
+  Inserta un nodo respetando las reglas del BST. Retorna la raíz actualizada.
+
+---
+
+### 🔷 Ejercicio 02: Invertir un Árbol Binario
+
+📂 **Carpeta:** `Ejercicio_02_invert`
+
+🔹 **Descripción:** Invierte un árbol binario, intercambiando recursivamente los subárboles izquierdo y derecho.
+
+🔹 **Método implementado:**
+- `invertTree(Node root)`  
+  Devuelve la raíz del árbol invertido de cara a lo de la izquierda se va a la derecha y al reves.
+
+---
+
+### 🔷 Ejercicio 03: Listar Niveles en Listas Enlazadas
+
+📂 **Carpeta:** `Ejercicio_03_listLeves`
+
+🔹 **Descripción:** Devuelve listas enlazadas de nodos por cada nivel del árbol.
+
+🔹 **Método implementado:**
+- `listLevels(Node root)`  
+  Devuelve una lista de listas enlazadas (`List<List<Node>>`), donde cada sublista representa un nivel.
+
+---
+
+### 🔷 Ejercicio 04: Calcular la Profundidad Máxima
+
+📂 **Carpeta:** `Ejercicio_04_depth`
+
+🔹 **Descripción:** Calcula la profundidad máxima de un árbol, es decir, la longitud del camino más largo desde la raíz hasta una hoja mas lejana.
+
+🔹 **Método implementado:**
+- `maxDepth(Node root)`  
+  Retorna un entero indicando la profundidad máxima.
+
+---
 
 ## Contribuir
 
@@ -184,4 +234,4 @@ Para contribuir a este proyecto, por favor crea un fork y envía una solicitud d
 ## Autores
 
 - [PABLO TORRES] - Desarrollo inicial
-
+- [Daniel Uyaguari] - Desarrollo  de Ejercicios.
